@@ -118,35 +118,3 @@ function removeLocalTodos(todo){
     // console.log(todos);
     localStorage.setItem('todos', JSON.stringify(todos));
 }
-
-// function deletecheck(event){
-
-//     console.log(event.target);
-//     const item=event.target;
-
-//     //delete
-//     if(item.classList[0]==='delete-btn'){
-
-//         item.parentElement.classList.add("fall");
-
-//         //removing local todos
-//         // removeLocalTodos(item.parentElement);
-
-//         item.parentElement.addEventListener("transitionend",function(){
-//             item.parentElement.remove();
-//         })
-//     }
-
-//     if(item.classList[0]='check-btn'){
-//         item.parentElement.classList.toggle("completed");
-//     }
-// }
-
-// let delbtns= document.querySelectorAll(".delete-btn");
-// for(detbtn of delbtns){
-//     delbtn.addEventListener("click",function(){
-//         let par=this.parentElement;
-//         // par.classList.add("fall");
-//         console.log(par)
-//     })
-// }
